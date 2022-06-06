@@ -8,6 +8,110 @@
     <title>Weebly Bakery</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo-mobile.png" alt="Weebly-BAKERY">
+            </div>
+            <div class="menu-toggle">
+                <div id="hamburger-slice-top" class="hamburger"></div>
+                <div id="hamburger-slice-middle" class="hamburger"></div>
+                <div id="hamburger-slice-bottom" class="hamburger"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section id="hero-section">
+            <h1>Welcome to our shop</h1>
+            <table>
+                <thead><th>Hours</th></thead>
+                <tbody>
+                    <tr><td class="weekday">Monday - </td><td class="time">Closed</td></tr>
+                    <tr><td class="weekday">Tuesday - </td><td class="time">9am-9pm</td></tr>
+                    <tr><td class="weekday">Wednesday - </td class="time"><td>9am-9pm</td></tr>
+                    <tr><td class="weekday">Thurday - </td><td class="time">9am-9pm</td></tr>
+                    <tr><td class="weekday">Friday - </td><td class="time">9am-9pm</td></tr>
+                    <tr><td class="weekday">Saturday - </td><td class="time">9am-9pm</td></tr>
+                    <tr><td class="weekday">Sunday - </td><td class="time">Closed</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="favorites-section">
+            <h2>Favorites</h2>
+            <div class="content cards-container">
+                <div class="card" id="favorite-bread">
+                    <img src="images/bread-image.png" alt="loafs-of-bread">
+                    <a class="favorite-link" href="#">Bread</a>
+                </div>
+                <div class="card" id="favorite-pastries">
+                    <img src="images/pastries-image.png" alt="rows-of-pastries">
+                    <a class="favorite-link" href="#">Pastries</a>
+                </div>
+                <div class="card" id="favorite-cake">
+                    <img src="images/cake-image.png" alt="birthday-cake">
+                    <a class="favorite-link" href="#">Cake</a>
+                </div>
+                <div class="card" id="favorite-donuts">
+                    <img src="images/donuts-image.png" alt="two-donuts">
+                    <a class="favorite-link" href="#">Donuts</a>
+                </div>
+            </div>
+        </section>
+        <section id="story-section">
+            <h2>Our Story</h2>
+            <article class="content story-content">
+                <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/5nEc4h_Y9Hw" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <p> Dolor, dolor ultricies cras ullamcorper eget tempus tellus. Mattis non in morbi facilisi.
+                    In sit volutpat nunc fames feugiat. Consequat cursus at lectus augue ac rhoncus mattis senectus. Sit commodo blandit aliquam, vel, purus in massa eu sit. Feugiat integer aenean vitae praesent id vel, ac. Nunc egestas nunc ante nam quis cursus pellentesque adipiscing.</p>
+                <p> Dolor, dolor ultricies cras ullamcorper eget tempus tellus. Mattis non in morbi facilisi.
+                    In sit volutpat nunc fames feugiat. Consequat cursus at lectus augue ac rhoncus mattis senectus. Sit commodo blandit aliquam, vel, purus in massa eu sit. Feugiat integer aenean vitae praesent id vel, ac. Nunc egestas nunc ante nam quis cursus pellentesque adipiscing.</p>
+            </article>
+        </section>
+        <section id="gallery-section">
+            <div class="gallery">
+                <img src="images/Gallery/grid-image-1.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-2.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-3.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-4.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-5.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-6.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-7.png" alt="some-type-of-dessert" class="gallery-item">
+                <img src="images/Gallery/grid-image-8.png" alt="some-type-of-dessert" class="gallery-item">
+
+            </div>
+        </section>
+        <section id="contact-section">
+        <h2>Contact</h2>
+        <div class="content contact-content">
+            <form action="#" method="post" class="reach-out">
+                <h3>Reach Out</h3>
+                <p class="input">Phone: xxx-xxx-xxxx</p>
+                <p class="input">Email: weeblybakery@email.com</p>
+                <textarea name="email-entry" id="email-entry" placeholder="Ask us anything..." cols="30" rows="10"></textarea>
+                <input type="submit" name="submit" id="form-submit-btn" class="btnprimary-btn">
+
+            </form>
+            <div class="find-us">
+                <h3>Find Us</h3>
+                <!-- <p class="input"></p> -->
+                <p class="input">Address: 1234 Main St.</p>
+                <p class="input">Cityville, ST</p>
+                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50112.800641939415!2d-122.48100172215125!3d37.77046185687605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580f4e18587a9%3A0x95ad3d3c048d58b8!2sWeebly%2C%20Inc!5e0!3m2!1sen!2sus!4v1654550953442!5m2!1sen!2sus" 
+                width="400" height="300" style="border:0;" allowfullscreen="non" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="#" class="btn primary-btn">Directions</a>
+
+            </div>
+        </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Copyright © 2022</p>
+    </footer>
 </body>
 </html>
