@@ -296,6 +296,7 @@ footer {
     .gallery {
        display: flex;
         justify-content: center;
+        align-items: flex-end;
         max-width: 1400px;
         margin: 0 auto;
 
@@ -303,5 +304,8 @@ footer {
     .gallery-item {
         max-width: 22%;
     }
-
+    
+    .item-b {
+        align-self: flex-start;
+    }
 }
