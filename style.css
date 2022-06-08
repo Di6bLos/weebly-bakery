@@ -121,7 +121,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: black;
-    background-image: url(../images/hero-image.png);
+    background-image: url('../images/hero-image.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -292,6 +292,12 @@ footer {
         margin: 0 auto;
         padding: 0 1em;
     }
+/* ***** Story ****** */
+    .story-content {
+        flex-flow: row-reverse;
+    }
+
+
 
 /* **** Gallery ***** */
     .gallery {
