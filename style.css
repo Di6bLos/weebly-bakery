@@ -120,7 +120,7 @@ nav {
 #hero-section {
     display: flex;
     flex-direction: column;
-    background-image: url(/images/hero-image.png);
+    background-image: url(../images/hero-image.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
